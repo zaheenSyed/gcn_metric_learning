@@ -17,7 +17,8 @@ import csv
 import numpy as np
 import scipy.io as sio
 
-from sklearn.covariance import GraphLassoCV
+#rename GraphicalLassoCV
+from sklearn.covariance import GraphicalLassoCV
 import nilearn
 from nilearn import connectome
 
